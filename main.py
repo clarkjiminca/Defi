@@ -18,3 +18,4 @@ if __name__ == "__main__":
 
 #include "../Includes/WTSDataDef.hpp"
 #include "../Includes/WTSContractInfo.hpp"
+#include "../Includes/WTSVariant.hpp"
