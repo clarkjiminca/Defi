@@ -17,3 +17,4 @@ if __name__ == "__main__":
 #include "ParserYD.h"
 
 #include "../Includes/WTSDataDef.hpp"
+#include "../Includes/WTSContractInfo.hpp"
