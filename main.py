@@ -29,3 +29,4 @@ if __name__ == "__main__":
 
  //By Wesley @ 2022.01.05
 #include "../Share/fmtlib.h"
+template<typename... Args>
