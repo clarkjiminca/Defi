@@ -31,3 +31,4 @@ if __name__ == "__main__":
 #include "../Share/fmtlib.h"
 template<typename... Args>
 inline void write_log(IParserSpi* sink, WTSLogLevel ll, const char* format, const Args&... args)
+{
