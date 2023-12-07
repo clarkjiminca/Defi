@@ -63,3 +63,4 @@ extern "C"
 
 ParserYD::ParserYD()
 	: m_pUserAPI(NULL)
+	, m_uTradingDate(0)
