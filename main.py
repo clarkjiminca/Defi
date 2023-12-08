@@ -67,3 +67,4 @@ ParserYD::ParserYD()
 	, m_bApiInited(false)
 {
 }
+
