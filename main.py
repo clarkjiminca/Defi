@@ -85,3 +85,4 @@ void ParserYD::notifyReadyForLogin(bool hasLoginFailed)
 	DoLogin();
 }
 
+
