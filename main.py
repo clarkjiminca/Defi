@@ -91,3 +91,4 @@ void ParserYD::notifyLogin(int errorNo, int maxOrderRef, bool isMonitor)
 	if (errorNo == 0)
 	{
 		write_log(m_sink, LL_INFO, "[ParserYD] {} login successfully", m_strUserID);
+
