@@ -97,3 +97,4 @@ void ParserYD::notifyLogin(int errorNo, int maxOrderRef, bool isMonitor)
 		{
 			m_sink->handleEvent(WPE_Login, 0);
 		}
+
