@@ -102,3 +102,4 @@ void ParserYD::notifyLogin(int errorNo, int maxOrderRef, bool isMonitor)
 		//这种一般是断线重连
 		if (m_bApiInited)
 		{
+			//订阅行情数据
