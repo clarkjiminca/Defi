@@ -113,3 +113,4 @@ void ParserYD::notifyLogin(int errorNo, int maxOrderRef, bool isMonitor)
 }
 
 
+void ParserYD::notifyFinishInit(void)
