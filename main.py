@@ -115,3 +115,4 @@ void ParserYD::notifyLogin(int errorNo, int maxOrderRef, bool isMonitor)
 
 void ParserYD::notifyFinishInit(void)
 {
+	if (m_sink) m_sink->handleParserLog(LL_INFO, "[ParserYD] All things ready");
