@@ -117,3 +117,4 @@ void ParserYD::notifyFinishInit(void)
 {
 	if (m_sink) m_sink->handleParserLog(LL_INFO, "[ParserYD] All things ready");
 
+	//如果API没有初始化过，说明这个回调是第一次触发
