@@ -120,3 +120,4 @@ void ParserYD::notifyFinishInit(void)
 	//如果API没有初始化过，说明这个回调是第一次触发
 	//则需要触发一些订阅等操作
 	if(!m_bApiInited)
+	{
