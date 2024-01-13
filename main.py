@@ -122,3 +122,4 @@ void ParserYD::notifyFinishInit(void)
 	if(!m_bApiInited)
 	{
 		//订阅行情数据
+		DoSubscribe();
