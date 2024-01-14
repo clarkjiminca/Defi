@@ -126,3 +126,4 @@ void ParserYD::notifyFinishInit(void)
 		m_bApiInited = true;
 	}
 }
+
