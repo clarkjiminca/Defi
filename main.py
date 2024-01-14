@@ -125,3 +125,4 @@ void ParserYD::notifyFinishInit(void)
 		DoSubscribe();
 		m_bApiInited = true;
 	}
+}
