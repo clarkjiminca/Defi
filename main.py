@@ -132,3 +132,4 @@ void ParserYD::notifyMarketData(const YDMarketData *pDepthMarketData)
 {
 	if (m_pBaseDataMgr == NULL)
 		return;
+
