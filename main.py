@@ -134,3 +134,4 @@ void ParserYD::notifyMarketData(const YDMarketData *pDepthMarketData)
 		return;
 
 	const YDInstrument* instInfo = pDepthMarketData->m_pInstrument;
+	const YDExchange* exchgInfo = instInfo->m_pExchange;
