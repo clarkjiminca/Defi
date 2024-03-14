@@ -135,3 +135,4 @@ void ParserYD::notifyMarketData(const YDMarketData *pDepthMarketData)
 
 	const YDInstrument* instInfo = pDepthMarketData->m_pInstrument;
 	const YDExchange* exchgInfo = instInfo->m_pExchange;
+	uint32_t actDate = pDepthMarketData->TradingDay;
