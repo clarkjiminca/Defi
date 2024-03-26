@@ -140,3 +140,4 @@ void ParserYD::notifyMarketData(const YDMarketData *pDepthMarketData)
 	uint32_t actHour = actTime / 10000000;
 
 	WTSContractInfo* contract = m_pBaseDataMgr->getContract(instInfo->InstrumentID, exchgInfo->ExchangeID);
+	if (contract == NULL)
