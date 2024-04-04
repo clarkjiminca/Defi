@@ -143,3 +143,4 @@ void ParserYD::notifyMarketData(const YDMarketData *pDepthMarketData)
 	if (contract == NULL)
 		return;
 
+	WTSTickData* tick = WTSTickData::create(instInfo->InstrumentID);
