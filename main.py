@@ -141,3 +141,4 @@ void ParserYD::notifyMarketData(const YDMarketData *pDepthMarketData)
 
 	WTSContractInfo* contract = m_pBaseDataMgr->getContract(instInfo->InstrumentID, exchgInfo->ExchangeID);
 	if (contract == NULL)
+		return;
