@@ -146,3 +146,4 @@ void ParserYD::notifyMarketData(const YDMarketData *pDepthMarketData)
 	WTSTickData* tick = WTSTickData::create(instInfo->InstrumentID);
 	WTSTickStruct& quote = tick->getTickStruct();
 	wt_strcpy(quote.exchg, contract->getExchg());
+	tick->setContractInfo(contract);
