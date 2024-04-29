@@ -147,3 +147,4 @@ void ParserYD::notifyMarketData(const YDMarketData *pDepthMarketData)
 	WTSTickStruct& quote = tick->getTickStruct();
 	wt_strcpy(quote.exchg, contract->getExchg());
 	tick->setContractInfo(contract);
+
