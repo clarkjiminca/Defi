@@ -148,3 +148,4 @@ void ParserYD::notifyMarketData(const YDMarketData *pDepthMarketData)
 	wt_strcpy(quote.exchg, contract->getExchg());
 	tick->setContractInfo(contract);
 
+	quote.action_date = actDate;
