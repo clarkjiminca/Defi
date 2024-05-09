@@ -151,3 +151,4 @@ void ParserYD::notifyMarketData(const YDMarketData *pDepthMarketData)
 	quote.action_date = actDate;
 	quote.action_time = actTime;
 
+	quote.price = pDepthMarketData->LastPrice;
