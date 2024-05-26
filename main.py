@@ -155,3 +155,4 @@ void ParserYD::notifyMarketData(const YDMarketData *pDepthMarketData)
 	quote.total_volume = pDepthMarketData->Volume;
 	quote.trading_date = m_uTradingDate;
 	quote.total_turnover = pDepthMarketData->Turnover;
+
