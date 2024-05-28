@@ -161,3 +161,4 @@ void ParserYD::notifyMarketData(const YDMarketData *pDepthMarketData)
 	quote.upper_limit = pDepthMarketData->UpperLimitPrice;
 	quote.lower_limit = pDepthMarketData->LowerLimitPrice;
 
+	quote.pre_close = pDepthMarketData->PreClosePrice;
