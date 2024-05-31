@@ -164,3 +164,4 @@ void ParserYD::notifyMarketData(const YDMarketData *pDepthMarketData)
 	quote.pre_close = pDepthMarketData->PreClosePrice;
 	quote.pre_settle = pDepthMarketData->PreSettlementPrice;
 	quote.pre_interest = pDepthMarketData->PreOpenInterest;
+
