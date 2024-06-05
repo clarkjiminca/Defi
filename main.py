@@ -166,3 +166,4 @@ void ParserYD::notifyMarketData(const YDMarketData *pDepthMarketData)
 	quote.pre_interest = pDepthMarketData->PreOpenInterest;
 
 	//委卖价格
+	quote.ask_prices[0] = pDepthMarketData->AskPrice;
