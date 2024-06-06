@@ -169,3 +169,4 @@ void ParserYD::notifyMarketData(const YDMarketData *pDepthMarketData)
 	quote.ask_prices[0] = pDepthMarketData->AskPrice;
 	//委买价格
 	quote.bid_prices[0] = pDepthMarketData->BidPrice;
+	//委卖量
