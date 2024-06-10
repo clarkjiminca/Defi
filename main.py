@@ -179,3 +179,4 @@ void ParserYD::notifyMarketData(const YDMarketData *pDepthMarketData)
 
 	tick->release();
 }
+
