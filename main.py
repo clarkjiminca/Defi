@@ -180,3 +180,4 @@ void ParserYD::notifyMarketData(const YDMarketData *pDepthMarketData)
 	tick->release();
 }
 
+bool ParserYD::init(WTSVariant* config)
