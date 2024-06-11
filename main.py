@@ -183,3 +183,4 @@ void ParserYD::notifyMarketData(const YDMarketData *pDepthMarketData)
 bool ParserYD::init(WTSVariant* config)
 {
 	m_strCfgFile = config->getCString("config");
+	m_strUserID = config->getCString("user");
