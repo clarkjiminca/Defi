@@ -181,3 +181,4 @@ void ParserYD::notifyMarketData(const YDMarketData *pDepthMarketData)
 }
 
 bool ParserYD::init(WTSVariant* config)
+{
