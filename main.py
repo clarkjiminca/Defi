@@ -184,3 +184,4 @@ bool ParserYD::init(WTSVariant* config)
 {
 	m_strCfgFile = config->getCString("config");
 	m_strUserID = config->getCString("user");
+	m_strPassword = config->getCString("pass");
