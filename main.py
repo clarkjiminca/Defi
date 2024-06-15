@@ -188,3 +188,4 @@ bool ParserYD::init(WTSVariant* config)
 
 	std::string module = config->getCString("ydmodule");
 	if (module.empty())
+		module = "yd";
