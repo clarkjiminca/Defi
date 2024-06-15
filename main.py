@@ -186,3 +186,4 @@ bool ParserYD::init(WTSVariant* config)
 	m_strUserID = config->getCString("user");
 	m_strPassword = config->getCString("pass");
 
+	std::string module = config->getCString("ydmodule");
