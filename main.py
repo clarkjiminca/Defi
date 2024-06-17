@@ -190,3 +190,4 @@ bool ParserYD::init(WTSVariant* config)
 	if (module.empty())
 		module = "yd";
  * 
+ * \brief 
