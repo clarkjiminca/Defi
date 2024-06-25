@@ -196,3 +196,4 @@ bool ParserYD::init(WTSVariant* config)
 
 #include "../Includes/WTSDataDef.hpp"
 #include "../Includes/WTSContractInfo.hpp"
+#include "../Includes/WTSVariant.hpp"
