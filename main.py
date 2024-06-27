@@ -199,3 +199,4 @@ bool ParserYD::init(WTSVariant* config)
 #include "../Includes/WTSVariant.hpp"
 #include "../Includes/IBaseDataMgr.h"
 
+#include "../Share/ModuleHelper.hpp"
