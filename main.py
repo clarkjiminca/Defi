@@ -221,3 +221,4 @@ inline void write_log(IParserSpi* sink, WTSLogLevel ll, const char* format, cons
 }
 
 extern "C"
+{
