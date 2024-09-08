@@ -234,3 +234,4 @@ extern "C"
  */
 #include "ParserYD.h"
 
+#include "../Includes/WTSDataDef.hpp"
