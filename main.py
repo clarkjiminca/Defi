@@ -241,3 +241,4 @@ extern "C"
 
 #include "../Share/ModuleHelper.hpp"
 #include "../Share/TimeUtils.hpp"
+#include "../Share/StdUtils.hpp"
