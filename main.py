@@ -243,3 +243,4 @@ extern "C"
 #include "../Share/TimeUtils.hpp"
 #include "../Share/StdUtils.hpp"
 
+#include <boost/filesystem.hpp>
