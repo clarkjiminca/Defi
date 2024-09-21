@@ -254,3 +254,4 @@ inline void write_log(IParserSpi* sink, WTSLogLevel ll, const char* format, cons
 		return;
 
 	static thread_local char buffer[512] = { 0 };
+	memset(buffer, 0, 512);
