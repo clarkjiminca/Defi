@@ -264,3 +264,4 @@ extern "C"
 {
 	EXPORT_FLAG IParserApi* createParser()
 	{
+		ParserYD* parser = new ParserYD();
