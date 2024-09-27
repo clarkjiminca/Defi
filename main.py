@@ -276,3 +276,4 @@ extern "C"
 			parser = NULL;
 		}
 	}
+};
