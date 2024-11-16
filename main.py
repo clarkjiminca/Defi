@@ -319,3 +319,4 @@ void ParserYD::notifyLogin(int errorNo, int maxOrderRef, bool isMonitor)
 		//如果API初始化过了，就直接订阅
 		//这种一般是断线重连
 		if (m_bApiInited)
+		{
