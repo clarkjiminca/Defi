@@ -321,3 +321,4 @@ void ParserYD::notifyLogin(int errorNo, int maxOrderRef, bool isMonitor)
 		if (m_bApiInited)
 		{
 			//订阅行情数据
+			DoSubscribe();
