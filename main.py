@@ -326,3 +326,4 @@ void ParserYD::notifyLogin(int errorNo, int maxOrderRef, bool isMonitor)
 	}
  * \project	WonderTrader
  *
+ * \author Wesley
