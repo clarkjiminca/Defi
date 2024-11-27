@@ -330,3 +330,4 @@ void ParserYD::notifyLogin(int errorNo, int maxOrderRef, bool isMonitor)
  * \date 2020/03/30
  * 
  * \brief 
+ */
