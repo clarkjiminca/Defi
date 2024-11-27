@@ -334,3 +334,4 @@ void ParserYD::notifyLogin(int errorNo, int maxOrderRef, bool isMonitor)
 #include "ParserYD.h"
 
 #include "../Includes/WTSDataDef.hpp"
+#include "../Includes/WTSContractInfo.hpp"
