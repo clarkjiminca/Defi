@@ -346,3 +346,4 @@ void ParserYD::notifyLogin(int errorNo, int maxOrderRef, bool isMonitor)
 
  //By Wesley @ 2022.01.05
 #include "../Share/fmtlib.h"
+template<typename... Args>
