@@ -368,3 +368,4 @@ extern "C"
 	}
 
 	EXPORT_FLAG void deleteParser(IParserApi* &parser)
+	{
