@@ -379,3 +379,4 @@ extern "C"
 
 
 ParserYD::ParserYD()
+	: m_pUserAPI(NULL)
