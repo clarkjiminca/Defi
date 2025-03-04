@@ -382,3 +382,4 @@ ParserYD::ParserYD()
 	: m_pUserAPI(NULL)
 	, m_uTradingDate(0)
 	, m_bApiInited(false)
+{
