@@ -393,3 +393,4 @@ ParserYD::~ParserYD()
 
 void ParserYD::notifyReadyForLogin(bool hasLoginFailed)
 {
+	if (m_sink)
