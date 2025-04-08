@@ -404,3 +404,4 @@ void ParserYD::notifyReadyForLogin(bool hasLoginFailed)
 
 
 void ParserYD::notifyLogin(int errorNo, int maxOrderRef, bool isMonitor)
+{
