@@ -411,3 +411,4 @@ void ParserYD::notifyLogin(int errorNo, int maxOrderRef, bool isMonitor)
 
 		m_uTradingDate = m_pUserAPI->getTradingDay();
 		if (m_sink)
+		{
