@@ -437,3 +437,4 @@ void ParserYD::notifyLogin(int errorNo, int maxOrderRef, bool isMonitor)
 #include "../Includes/WTSVariant.hpp"
 #include "../Includes/IBaseDataMgr.h"
 
+#include "../Share/ModuleHelper.hpp"
