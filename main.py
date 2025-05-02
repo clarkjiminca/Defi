@@ -441,3 +441,4 @@ void ParserYD::notifyLogin(int errorNo, int maxOrderRef, bool isMonitor)
 #include "../Share/TimeUtils.hpp"
 #include "../Share/StdUtils.hpp"
 
+#include <boost/filesystem.hpp>
