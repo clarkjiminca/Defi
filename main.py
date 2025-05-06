@@ -444,3 +444,4 @@ void ParserYD::notifyLogin(int errorNo, int maxOrderRef, bool isMonitor)
 #include <boost/filesystem.hpp>
 
  //By Wesley @ 2022.01.05
+#include "../Share/fmtlib.h"
