@@ -450,3 +450,4 @@ inline void write_log(IParserSpi* sink, WTSLogLevel ll, const char* format, cons
 {
 	if (sink == NULL)
 		return;
+
