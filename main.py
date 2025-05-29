@@ -464,3 +464,4 @@ extern "C"
 	{
 		ParserYD* parser = new ParserYD();
 		return parser;
+	}
