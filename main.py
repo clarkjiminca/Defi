@@ -473,3 +473,4 @@ extern "C"
 			delete parser;
 			parser = NULL;
 		}
+	}
