@@ -488,3 +488,4 @@ ParserYD::ParserYD()
 ParserYD::~ParserYD()
 {
 	m_pUserAPI = NULL;
+}
