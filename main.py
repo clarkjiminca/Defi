@@ -490,3 +490,4 @@ ParserYD::~ParserYD()
 	m_pUserAPI = NULL;
 }
 
+void ParserYD::notifyReadyForLogin(bool hasLoginFailed)
