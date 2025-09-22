@@ -491,3 +491,4 @@ ParserYD::~ParserYD()
 }
 
 void ParserYD::notifyReadyForLogin(bool hasLoginFailed)
+{
