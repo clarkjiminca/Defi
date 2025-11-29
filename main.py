@@ -494,3 +494,4 @@ void ParserYD::notifyReadyForLogin(bool hasLoginFailed)
 {
 	if (m_sink)
 	{
+		write_log(m_sink, LL_INFO, "[ParserYD] Market data server connected");
