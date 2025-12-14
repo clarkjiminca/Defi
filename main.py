@@ -498,3 +498,4 @@ void ParserYD::notifyReadyForLogin(bool hasLoginFailed)
 		m_sink->handleEvent(WPE_Connect, 0);
 	}
 
+	DoLogin();
